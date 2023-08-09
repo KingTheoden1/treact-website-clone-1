@@ -524,3 +524,65 @@ STEPS
   max-width: 20rem;
 }
 
+/*
+
+VALUES
+
+*/
+
+.values__left--column {
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.values__right--column {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.value__img {
+  width: 100%;
+}
+
+.value__sub--column {
+  display: flex;
+}
+
+.value__sub--columnLeft,
+.value__sub--columnRight {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.value__sub--column--header {
+  display: flex;
+  align-items: center;
+}
+
+.values__header {
+  margin-left: 1rem;
+}
+
+.values__icon--wrapper--left {
+  background-color: #9ae6b4;
+  padding: 0.5rem;
+  border-radius: 9999px;
+}
+
+.values__icon--wrapper--right {
+  background-color: #feb2b2;
+  padding: 0.5rem;
+  border-radius: 9999px;
+}
+
+.values__para {
+  line-height: 1.5;
+  margin-top: 1rem;
+  font-weight: 400;
+}
