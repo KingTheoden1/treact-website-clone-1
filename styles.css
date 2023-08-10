@@ -647,7 +647,7 @@ PRICING
 
 .pricing__btn--green {
   background: linear-gradient(
-    115deg
+    115deg,
     rgb(56, 178, 172) 0%,
     rgb(129, 230, 217) 100%
   );
@@ -777,7 +777,7 @@ PRICING
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: rgb(247, 250, 252);
+  padding: 2rem 1rem;
 }
 
 .middle {
@@ -802,7 +802,7 @@ TESTIMONIALS
   max-width: 50%;
 }
 
-.testimonials__right--column {
+.testimonial__right--column {
   width: 100%;
   max-width: 50%;
   height: 100%;
@@ -898,5 +898,57 @@ TESTIMONIALS
 /*
 
 FAQ
+
+*/
+
+.row__faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq__para {
+  text-align: center;
+}
+
+.faq__list {
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 56rem;
+}
+
+.faq__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 16px 40px;
+  border-radius: 8px;
+  background-color: #edf2f7;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.faq__item:hover {
+  background-color: #e0e4e9;
+  cursor: not-allowed;
+}
+
+.faq__question {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/*
+
+SUBSCRIBE
 
 */
