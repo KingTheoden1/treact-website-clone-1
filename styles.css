@@ -952,3 +952,155 @@ FAQ
 SUBSCRIBE
 
 */
+
+.row__subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #6415ff;
+  padding: 96px 32px;
+  border-radius: 8px;
+}
+
+.subscribe__header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  max-width: 500px;
+}
+
+.btn__get--started {
+  background-color: #f56565;
+  margin-right: 32px;
+  padding: 1.5rem 2.5rem;
+  transition: all 300ms ease;
+}
+
+.btn__get--started:hover {
+  background-color: #db2424;
+}
+
+.btn__contact--us {
+  padding: 1.5rem 2.5rem;
+  border: 1px solid white;
+  transition: all 300ms ease;
+}
+
+.btn__contact--us:hover {
+  background-color: white;
+  color: rgb(52, 14, 128);
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #6415ff;
+}
+
+.footer__container {
+  padding: 6rem 3rem;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.footer__list {
+  margin-left: 20px;
+  margin-top: 3em;
+}
+
+.footer__list--title {
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.footer__list li {
+  margin-top: 16px;
+}
+
+.footer__link {
+  color: white;
+  border-color: transparent;
+  border-bottom-width: 2px;
+  margin-bottom: 0.5rem;
+  transition: all 300ms ease;
+}
+
+.footer__link:hover {
+  color: white;
+  cursor: not-allowed;
+  border-bottom: 1px solid white;
+  padding-bottom: 0.25rem;
+}
+
+.footer__divider {
+  margin: 4rem 0;
+  width: 100%;
+  border-color: rgb(226, 232, 240);
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-width: 1px;
+  opacity: 0.3;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.footer__img {
+  width: 2.5rem;
+  margin-right: 0.75rem;
+}
+
+.footer__socials {
+  color: black;
+}
+
+.footer__social--link {
+  padding: 0.7rem;
+  margin-right: 1rem;
+  border-radius: 9999px;
+  background-color: white;
+  text-align: center;
+  transition: opacity 300ms ease;
+}
+
+.footer__social--link:hover {
+  opacity: 0.7;
+}
+
+.footer__social--link i {
+  width: 1.25rem;
+}
