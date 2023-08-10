@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;900&family=Lato:wght@400;700&family=Montserrat&display=swap"); /* get more font sizes */
-/* Default */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;900&family=Lato:wght@400;700&family=Montserrat&display=swap");
 
 * {
   padding: 0;
@@ -25,7 +24,7 @@ a {
 }
 
 .purple {
-  color: #7342d6;
+  color: rgb(100, 21, 255);
 }
 
 .btn {
@@ -61,7 +60,11 @@ li {
   text-decoration: none;
 }
 
-/* NAVIGATION */
+/*
+
+NAVIGATION
+
+*/
 
 nav {
   height: 100px;
@@ -274,6 +277,7 @@ header {
 }
 
 .customers {
+  text-transform: uppercase;
   color: rgb(160, 174, 192);
   font-size: 0.75rem;
   font-weight: 700;
@@ -382,11 +386,9 @@ FEATURES
 }
 
 .service__title {
-  margin-top: 1rem;
   font-size: 1.5rem;
   color: #243e63;
   font-weight: 700;
-  letter-spacing: 0.025em;
 }
 
 .service__para {
@@ -703,6 +705,9 @@ PRICING
     rgb(245, 101, 101) 0%,
     rgb(254, 178, 178) 100%
   );
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.875rem;
 }
 
 .pricing__btn--red:hover {
@@ -762,6 +767,7 @@ PRICING
 
 .sub__feature {
   color: rgb(113, 128, 150);
+  font-weight: 500;
   margin-top: 1.25rem;
   text-align: left;
 }
@@ -782,5 +788,115 @@ PRICING
 /*
 
 TESTIMONIALS
+
+*/
+
+.row__testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial__left--column {
+  width: 100%;
+  max-width: 50%;
+}
+
+.testimonials__right--column {
+  width: 100%;
+  max-width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.testimonials__stars {
+  margin-top: 3rem;
+}
+
+.star {
+  width: 20px;
+  fill: #f6ad55;
+}
+
+.testimonials__header {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #243e63;
+  font-weight: 700;
+}
+
+.testimonials__subheader {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(74, 85, 104);
+}
+
+.testimonials__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonials__footer--img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.testimonials__identity {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials__person {
+  margin-left: 1.5rem;
+}
+
+.testimonials__person--name {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.testimonials__person--work {
+  color: rgb(124, 139, 161);
+}
+
+.testimonials__arrows {
+  display: flex;
+}
+
+.testimonials__btn--left,
+.testimonials__btn--right {
+  margin: 0 12px;
+  padding: 16px;
+  background-color: rgb(237, 242, 247);
+  border: none;
+  border-radius: 50px;
+  transition: all 300ms ease;
+  cursor: not-allowed;
+  height: 100%;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+  color: #6415ff;
+}
+
+.divider {
+  margin: 12px 0;
+  border-right: 1px solid #a0aec0;
+  opacity: 0.25;
+}
+
+/*
+
+FAQ
 
 */
