@@ -1104,3 +1104,277 @@ footer {
 .footer__social--link i {
   width: 1.25rem;
 }
+
+/*
+
+LARGE PHONES, TABLETS, AND SMARTPHONES
+
+*/
+
+@media (max-width: 1024px) {
+  #landing {
+    height: 100vh;
+    margin-bottom: 6em;
+  }
+
+  .nav__link--list {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
+
+  .header__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__left--column {
+    width: 100%;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .header__input {
+    width: 100%;
+  }
+
+  .header__img {
+    height: 100%;
+  }
+
+  .btn__header {
+    margin-right: 1rem;
+  }
+
+  .customer__logos {
+    padding: 0 5px;
+  }
+
+  .services {
+    max-width: 70%;
+    margin: 24px auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .services {
+    max-width: 1024px;
+  }
+
+  .service {
+    width: 50%;
+  }
+
+  .section__title {
+    font-size: 2.5em;
+  }
+
+  .feature__para,
+  .quality__para {
+    font-size: 1.1em;
+  }
+
+  .row__subscribe {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .subscribe__header,
+  .subscribe__buttons {
+    margin: 20px 0;
+  }
+
+  .pricing__columns {
+    flex-wrap: wrap;
+  }
+
+  .pricing__column {
+    max-width: 50%;
+    margin: 4rem 1rem 0 1rem;
+  }
+
+  .testimonials__subheader {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer__copyright {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer__logo,
+  .copyright,
+  .footer__socials {
+    margin: 1.5rem 0;
+  }
+
+  .footer__social--link {
+    margin: 0 12px;
+  }
+
+  .row__testimonial {
+    flex-direction: column;
+  }
+
+  .testimonial__right--column {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .testimonials__para {
+    text-align: center;
+    margin: 16px auto 0;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__title {
+    font-size: 2em;
+  }
+
+  .header__left--column {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header__para {
+    width: 80%;
+  }
+
+  .header__input {
+    width: 100%;
+  }
+
+  .btn__header {
+    margin-right: 1rem;
+  }
+
+  .customer__logos {
+    padding: 0 5px;
+  }
+
+  .section__title {
+    font-size: 2em;
+  }
+
+  .feature__para,
+  .quality__para {
+    font-size: 1em;
+  }
+
+  .services {
+    max-width: 100%;
+  }
+
+  .service {
+    width: 50%;
+  }
+
+  .pricing__columns {
+    flex-wrap: wrap;
+  }
+
+  .btn__get--started,
+  .btn__contact--us {
+    margin: 0;
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  #landing {
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .row__quality {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .section__title {
+    text-align: center;
+  }
+
+  .quality__left--column,
+  .quality__right--column,
+  .steps__left--column,
+  .steps__right--column,
+  .values__left--column,
+  .testimonial__left--column,
+  .testimonial__right--column {
+    margin: 12px auto;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .quality__para {
+    text-align: center;
+  }
+
+  .step,
+  .value__sub--column--header {
+    justify-content: center;
+  }
+
+  .pricing__column {
+    margin: 1rem 1rem;
+  }
+
+  .services {
+    max-width: 100%;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .row__testimonial {
+    flex-direction: column;
+  }
+
+  .faq__question {
+    font-size: 1rem;
+  }
+
+  .footer__copyright {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer__logo,
+  .copyright,
+  .footer__socials {
+    margin: 1.5rem 0;
+  }
+
+  .footer__social--link {
+    margin: 0 12px;
+  }
+}
