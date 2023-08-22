@@ -203,7 +203,7 @@ HEADER
 */
 
 header {
-  height: calc(90vh - 100px);
+  /* height: calc(90vh - 100px); */
 }
 
 .container {
@@ -554,6 +554,7 @@ VALUES
 
 .value__sub--column {
   display: flex;
+  flex-direction: column;
 }
 
 .value__sub--columnLeft,
@@ -763,6 +764,7 @@ PRICING
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.025rem;
+  text-align: center;
 }
 
 .sub__feature {
@@ -1191,6 +1193,7 @@ LARGE PHONES, TABLETS, AND SMARTPHONES
   .subscribe__header,
   .subscribe__buttons {
     margin: 20px 0;
+    display: flex;
   }
 
   .pricing__columns {
@@ -1344,6 +1347,7 @@ LARGE PHONES, TABLETS, AND SMARTPHONES
   }
 
   .pricing__column {
+    max-width: 100%;
     margin: 1rem 1rem;
   }
 
